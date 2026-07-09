@@ -1,0 +1,1041 @@
+/* body{
+    background: red !important;
+} */
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    background: #f8f9fa;
+}
+
+
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+.navbar{
+    background: transparent !important;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding: 20px 0;
+}
+
+.navbar .nav-link,
+.navbar-brand{
+    color:#fff !important;
+    font-weight:500;
+}
+
+.navbar .nav-link:hover{
+    color:#D4A017 !important;
+}
+
+.nav-link.active{
+    color:#D4A017 !important;
+    font-weight:600;
+    border-bottom:2px solid #D4A017;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.hero{
+    background: url("../images/hero.jpg") center center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.overplay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,0.65);
+    display: flex;
+    align-items: center;
+}
+
+.hero-content{
+    color: white;
+    max-width: 600px;
+}
+
+.hero-content h5{
+    color: #D4A017;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.hero-content h1{
+    font-size:70px;
+    font-weight:700;
+    margin:20px 0;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:35px;
+    color:#ddd;
+}
+
+.hero .btn{
+    padding:12px 30px;
+    font-weight:600;
+    border-radius:50px;
+}
+
+/* ===========================
+   SERVICES SECTION
+=========================== */
+
+.services{
+    background:#ffffff;
+}
+
+.service-box{
+    background:#fff;
+    padding:35px 25px;
+    border-radius:12px;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.service-box i{
+    font-size:45px;
+    color:#D4A017;
+    margin-bottom:20px;
+}
+
+.service-box h4{
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.service-box p{
+    color:#666;
+}
+
+.service-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+
+/* ===========================
+   CATEGORIES SECTION
+=========================== */
+
+.categories{
+    background:#f8f9fa;
+}
+
+.category-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.category-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.category-card h4{
+    padding:20px;
+    font-weight:600;
+}
+
+.category-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+
+.menu-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.menu-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.menu-content{
+    padding: 20px;
+}
+
+
+
+/* ===========================
+   ABOUT SECTION
+=========================== */
+
+.about{
+    background:#ffffff;
+}
+
+.about img{
+    width:100%;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.about img:hover{
+    transform:scale(1.03);
+}
+
+.about h2{
+    font-weight:700;
+}
+
+.about p{
+    color:#666;
+    line-height:1.8;
+}
+
+.about i{
+    margin-right:8px;
+}
+
+
+
+
+
+/* ===========================
+   WHY CHOOSE US
+=========================== */
+
+.why-us{
+    background:#f8f9fa;
+}
+
+.why-card{
+    background:#ffffff;
+    padding:35px 25px;
+    border-radius:15px;
+    text-align:center;
+    height:100%;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:0.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.why-card i{
+    font-size:50px;
+    color:#D4A017;
+    margin-bottom:20px;
+}
+
+.why-card h4{
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.why-card p{
+    color:#666;
+    font-size:15px;
+    line-height:1.6;
+}
+
+
+
+
+/* ===========================
+   CONTACT PREVIEW
+=========================== */
+
+.contact-preview{
+    background:#ffffff;
+}
+
+.contact-card{
+    background:#fff;
+    text-align:center;
+    padding:35px 25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.contact-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.contact-card i{
+    font-size:45px;
+    color:#D4A017;
+    margin-bottom:20px;
+}
+
+.contact-card h4{
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.contact-card p{
+    color:#666;
+    line-height:1.7;
+}
+
+
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+    background:#121212;
+    color:#ffffff;
+    padding:60px 0 20px;
+}
+
+.footer h3,
+.footer h4{
+    margin-bottom:20px;
+    font-weight:600;
+}
+
+.footer p{
+    color:#cccccc;
+    line-height:1.8;
+}
+
+.footer-links{
+    padding:0;
+}
+
+.footer-links li{
+    list-style:none;
+    margin-bottom:10px;
+}
+
+.footer-links a{
+    color:#cccccc;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#D4A017;
+}
+
+.footer hr{
+    border-color:#444;
+}
+
+.footer i{
+    color:#D4A017;
+    margin-right:8px;
+}
+
+
+
+
+
+/* ===========================
+   BACK TO TOP BUTTON
+=========================== */
+
+#topBtn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius:50%;
+    background:#D4A017;
+    color:#fff;
+    font-size:20px;
+    cursor:pointer;
+    display:none;
+    z-index:9999;
+    transition:0.3s;
+}
+
+#topBtn:hover{
+    background:#b8860b;
+    transform:translateY(-3px);
+}
+
+
+
+
+/* ===========================
+   RESPONSIVE DESIGN
+=========================== */
+
+@media (max-width: 992px){
+
+    .hero-content{
+        text-align:center;
+        margin:auto;
+    }
+
+    .hero-content h1{
+        font-size:50px;
+    }
+
+    .hero-content p{
+        font-size:18px;
+    }
+
+    .navbar{
+        background:#121212 !important;
+        position:relative;
+        padding:15px 0;
+    }
+
+    .about{
+        text-align:center;
+    }
+
+    .about img{
+        margin-bottom:30px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .hero{
+        min-height:80vh;
+    }
+
+    .hero-content h1{
+        font-size:38px;
+    }
+
+    .hero-content h5{
+        font-size:18px;
+    }
+
+    .hero-content p{
+        font-size:16px;
+    }
+
+    .hero .btn{
+        width:100%;
+        margin-bottom:15px;
+    }
+
+    .service-box,
+    .category-card,
+    .menu-card,
+    .why-card,
+    .contact-card{
+        margin-bottom:20px;
+    }
+
+    .footer{
+        text-align:center;
+    }
+}
+
+@media (max-width: 576px){
+
+    .hero-content h1{
+        font-size:32px;
+    }
+
+    .hero-content p{
+        font-size:15px;
+    }
+
+    .navbar-brand{
+        font-size:24px;
+    }
+
+    .footer h3,
+    .footer h4{
+        font-size:24px;
+    }
+}
+
+
+
+
+/* ===========================
+   PAGE BANNER
+=========================== */
+
+.page-banner{
+
+    background:#121212;
+
+    color:#fff;
+
+    text-align:center;
+
+    padding:140px 0 80px;
+}
+
+.page-banner h1{
+
+    font-size:50px;
+
+    font-weight:700;
+}
+
+.page-banner p{
+
+    margin-top:15px;
+}
+
+.page-banner a{
+
+    color:#D4A017;
+
+    text-decoration:none;
+}
+
+/* ===========================
+   ABOUT PAGE
+=========================== */
+
+.about-page{
+
+    background:#fff;
+}
+
+.about-page img{
+
+    border-radius:15px;
+
+    transition:.3s;
+}
+
+.about-page img:hover{
+
+    transform:scale(1.03);
+}
+
+.about-page p{
+
+    color:#666;
+
+    line-height:1.8;
+}
+
+
+
+
+/* ===========================
+   MISSION & VISION
+=========================== */
+
+.mission{
+    background:#f8f9fa;
+}
+
+.mission-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.mission-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.mission-card i{
+    font-size:55px;
+    color:#D4A017;
+    margin-bottom:20px;
+}
+
+.mission-card h3{
+    margin-bottom:15px;
+    font-weight:700;
+}
+
+.mission-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+
+/* ===========================
+   OUR VALUES
+=========================== */
+
+.values{
+    background:#ffffff;
+}
+
+.value-card{
+    background:#fff;
+    padding:35px 25px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.value-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.value-card i{
+    font-size:50px;
+    color:#D4A017;
+    margin-bottom:20px;
+}
+
+.value-card h4{
+    margin-bottom:15px;
+    font-weight:600;
+}
+
+.value-card p{
+    color:#666;
+    line-height:1.7;
+}
+
+
+
+
+/* ===========================
+   MEET OUR CHEFS
+=========================== */
+
+.chefs{
+    background:#f8f9fa;
+}
+
+.chef-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.chef-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.chef-card img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+.chef-info{
+    padding:25px;
+}
+
+.chef-role{
+    color:#D4A017;
+    font-weight:600;
+}
+
+.chef-social{
+    margin-top:20px;
+}
+
+.chef-social a{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin:0 5px;
+    border-radius:50%;
+    background:#D4A017;
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.chef-social a:hover{
+    background:#121212;
+}
+
+
+/* ===========================
+   RESTAURANT GALLERY
+=========================== */
+
+.gallery{
+    background:#ffffff;
+}
+
+.gallery-item{
+    overflow:hidden;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.gallery-item img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    transition:0.4s;
+}
+
+.gallery-item:hover img{
+    transform:scale(1.08);
+}
+
+
+/* ===========================
+   RESTAURANT STATISTICS
+=========================== */
+
+.statistics{
+    background:#121212;
+    color:#fff;
+}
+
+.stat-card{
+    padding:30px 20px;
+}
+
+.stat-card i{
+    font-size:55px;
+    color:#D4A017;
+    margin-bottom:20px;
+}
+
+.stat-card h2{
+    font-size:55px;
+    font-weight:700;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.stat-card p{
+    font-size:20px;
+    color:#ddd;
+    margin-bottom:0;
+}
+
+
+/* ===========================
+   CALL TO ACTION
+=========================== */
+
+.cta{
+    background:#f8f9fa;
+    text-align:center;
+}
+
+.cta h2{
+    font-weight:700;
+}
+
+.cta p{
+    font-size:18px;
+    color:#666;
+}
+
+
+
+
+/* ===========================
+   MENU SEARCH
+=========================== */
+
+.menu-search{
+
+    background:#ffffff;
+}
+
+.menu-search input{
+
+    border-radius:50px 0 0 50px;
+    padding:15px;
+}
+
+.menu-search button{
+
+    border-radius:0 50px 50px 0;
+    padding:0 25px;
+}
+
+/* ===========================
+   MENU CATEGORY FILTER
+=========================== */
+
+.menu-categories{
+    background:#ffffff;
+}
+
+.category-btn{
+    border:2px solid #D4A017;
+    background:#ffffff;
+    color:#D4A017;
+    padding:10px 25px;
+    margin:8px;
+    border-radius:30px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.category-btn:hover,
+.category-btn.active{
+    background:#D4A017;
+    color:#ffffff;
+}
+
+
+/* ===========================
+   MENU ITEMS
+=========================== */
+
+.menu-items{
+    background:#f8f9fa;
+}
+
+.food-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:0.3s;
+    height:100%;
+}
+
+.food-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.food-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.food-content{
+    padding:20px;
+}
+
+.food-content h4{
+    font-weight:600;
+}
+
+.food-content p{
+    color:#666;
+    line-height:1.6;
+}
+
+.food-info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:15px;
+}
+
+.price{
+    color:#D4A017;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.rating{
+    font-size:18px;
+}
+
+
+/* ===========================
+   PAGINATION
+=========================== */
+
+.menu-pagination{
+    background:#ffffff;
+}
+
+.pagination .page-link{
+
+    color:#D4A017;
+
+    border:1px solid #D4A017;
+
+    margin:0 5px;
+
+    border-radius:8px;
+
+    transition:0.3s;
+}
+
+.pagination .page-link:hover{
+
+    background:#D4A017;
+
+    color:#ffffff;
+}
+
+.pagination .active .page-link{
+
+    background:#D4A017;
+
+    border-color:#D4A017;
+
+    color:#ffffff;
+}
+
+
+
+
+
+
+/* ===========================
+   CONTACT INFO
+=========================== */
+
+.contact-info{
+    background:#ffffff;
+}
+
+.contact-box{
+    background:#fff;
+    padding:35px 25px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+    height:100%;
+}
+
+.contact-box:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.contact-box i{
+    font-size:50px;
+    color:#D4A017;
+    margin-bottom:20px;
+}
+
+.contact-box h4{
+    margin-bottom:15px;
+}
+
+.contact-box p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* ===========================
+   CONTACT FORM
+=========================== */
+
+.contact-form-section{
+    background:#f8f9fa;
+}
+
+.contact-form-section .form-control{
+    border-radius:10px;
+    padding:12px;
+}
+
+.contact-form-section textarea{
+    resize:none;
+}
+
+.contact-details{
+    background:#ffffff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    height:100%;
+}
+
+.contact-details h3{
+    font-weight:700;
+}
+
+.contact-details p{
+    color:#666;
+    line-height:1.8;
+}
+
+
+/* ===========================
+   GOOGLE MAP
+=========================== */
+
+.google-map{
+    background:#ffffff;
+}
+
+.map-container{
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.10);
+}
+
+/* ===========================
+   FOLLOW US
+=========================== */
+
+.follow-us{
+    background:#f8f9fa;
+}
+
+.social-icons a{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:55px;
+    height:55px;
+    margin:10px;
+    border-radius:50%;
+    background:#D4A017;
+    color:#ffffff;
+    font-size:22px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    background:#121212;
+    transform:translateY(-5px);
+}
