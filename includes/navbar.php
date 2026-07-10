@@ -36,7 +36,7 @@
                <li class="nav-item">
                     <a class="nav-link 
                         <?php if($currentPage == 'menu.php') echo 'active'; ?>" 
-                        href="menu.php">Menu
+                        href="customer/menu.php">Menu
                     </a>
                 </li>
 
